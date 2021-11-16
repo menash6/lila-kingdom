@@ -81,12 +81,13 @@ const RightNav = ({open, close}) => {
 
    return ( 
             <Ul open={open}>
-               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "start-position")}>Start</NavLink></li>
-               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "about-me")} >O mnie</NavLink></li>
-               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "how-working")} >Jak pracuje</NavLink></li>
-               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "portfolio")}>Portfolio</NavLink></li>
-               <li><NavLink to="/offer-and-price" exact={true} onClick={clickFnk.bind(this, "offer-price")}>Oferta i cennik</NavLink></li>
-               <li><button onClick={clickFnk.bind(this, "contact")}><NavLink to="/" exact={true}>Kontakt</NavLink></button></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "start-position")}>Home</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "reference")} >Drawings</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "about-me")} >Story</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "how-working")} >My Hobbies</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "portfolio")}>Fashion Design</NavLink></li>
+               {/* <li><NavLink to="/offer-and-price" exact={true} onClick={clickFnk.bind(this, "offer-price")}>Oferta i cennik</NavLink></li> */}
+               {/* <li><button onClick={clickFnk.bind(this, "contact")}><NavLink to="/" exact={true}>Contact</NavLink></button></li> */}
         </Ul>
      );
 }
