@@ -1,7 +1,4 @@
-## Cameraman page
-
-**Demo: [Cameraman page](https://dawiddev.github.io/camerman/)** <br/>
-A modern, responsive website personalized for a cameraman, created as part of React training.
+## Lila's Kingfom page
 
 Design features:
 
